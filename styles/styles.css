@@ -6,18 +6,12 @@
     
 }
     
-
-.DownloadSection {
-    position: absolute;
+.appDownloadSection{
     width: 1440px;
     height: 500px;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom: 0;
-
     background: #ED4C5C;
 }
+
 
 .LeftText {
     position: absolute;
@@ -99,11 +93,11 @@
 
 
 .ContactUs{
-    position: absolute;
+    /* position: absolute; */
     width: 1440px;
     height: 500px;
-    left: 0px;
-    top: 500px;
+    /* left: 0px;
+    top: 500px; */
     background: #FFFFFF;
     display: flex;
 }
