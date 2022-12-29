@@ -1,0 +1,298 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&family=Roboto:wght@400;500&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    
+
+.DownloadSection {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: #ED4C5C;
+}
+
+.LeftText {
+    position: absolute;
+    width: 445px;
+    height: 195px;
+    left: 165px;
+    top: 122px;
+    }
+
+.LeftTextTitle {
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+
+}   
+
+.LeftTextDesc{
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;  
+    text-align: justify;
+    color: #FFFFFF;
+    
+}
+
+.AppDownloadLink{
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+
+.GooglePlayStore{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.AppleAppStore{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 55px;
+    top: 0px;
+}
+
+.WindowsImage{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 110px;
+    top: 4px;
+}
+
+.Slider{
+    position: absolute;
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+}
+
+
+.ContactUs{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.LeftTextContactUs{
+    margin-top: 117px;
+    margin-left: 176px;
+    width: 445px;
+    height: 160px;
+
+}
+
+.LeftTextContactUsTitle{
+    width: 445px;
+    height: 107px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.LeftTextContactUsDesc{
+    width: 434px;
+    height: 64px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+.RightField{
+    width: 540px;
+    height: 305px;
+    margin-top: 117px;
+    margin-left: 165px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5); 
+    /* box-sizing: border-box; */
+
+}
+
+#FirstName{
+    margin-right: 25px;
+}
+
+#FirstName,
+#LastName {
+    box-sizing: border-box;
+    width: 255px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 31px;
+    }
+
+#PhoneNumber,
+#select {
+    width: 540px;
+    height: 60px;
+    margin-top: 24px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding-left: 31px;
+}
+
+#submit {
+    box-sizing: border-box;
+    margin-top: 24px;
+    width: 160px;
+    height: 50px; 
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+
+}
+
+.foter{
+    position: absolute;
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+    display: flex;
+    /* justify-content: space-between; */
+      
+}
+
+.adress {
+    width: 259px;
+    height: 264px;
+    margin-top: 85px;
+    margin-left: 161px;
+}
+
+.services {
+    margin-top: 85px;
+    width: 254px;
+    height: 164px;
+
+   
+}
+.getInToucH {
+    margin-top: 85px;
+    width: 122px;
+    height: 128px;
+}
+
+.weSupportH{
+    margin-top: 85px;
+    margin-left: 187px;
+    width: 96px;
+    height: 22px;
+}
+
+.adressH,
+.servicesH,
+.getInToucH,
+.weSupportH {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #101010;
+}
+
+.adressP,
+.servicesP,
+.getInTouchP {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+
+.adressP {
+    margin-top: 33px;
+}
+
+.servicesP{
+    margin-top: 28px;   
+    
+}
+
+.servicesList{
+    list-style-type: none;
+}
+.getInTouchP{
+    margin-top: 33px;
+}
+
+.getInTouchP p {
+    margin-top: 11px;
+}
+
+.image {
+    width: 216px;
+    height: 31px;
+    margin-top: 33px;
+    margin-left: 172px;
+}
+
+.support {
+    width: 216px;
+    height: 216px;
+}
+
+.p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-top: 141px;
+}
+
+
+
+
+
