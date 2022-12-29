@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100%;
+    
 }
     
 
@@ -13,6 +13,9 @@
     height: 500px;
     left: 0px;
     top: 0px;
+    right: 0;
+    bottom: 0;
+
     background: #ED4C5C;
 }
 
