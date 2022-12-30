@@ -182,15 +182,15 @@
     background: #ED4C5C;
     border: 1.5px solid #ED4C5C;
     border-radius: 6px;
+    cursor: pointer;
 
 }
 
 .foter{
-    position: absolute;
+    
     width: 1440px;
     height: 435px;
-    left: 0px;
-    top: 1045px;
+    
     background: #FAFAFA;
     display: flex;
     /* justify-content: space-between; */
@@ -258,6 +258,8 @@
 
 .servicesList{
     list-style-type: none;
+    
+
 }
 .getInTouchP{
     margin-top: 33px;
@@ -288,6 +290,32 @@
     color: #101010;
     margin-top: 141px;
 }
+
+.servicesList li a,
+.getInTouchP a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+
+.iconsFacebook{
+    margin-top: 20px;
+    width: 14px;
+    height: 14px;
+}
+
+.iconsLinkedin,
+.iconsTwitter {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 14px;
+    height: 14px;
+}
+
 
 
 
