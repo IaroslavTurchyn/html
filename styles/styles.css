@@ -161,6 +161,7 @@
     border: 1px solid #333333;
     border-radius: 6px;
     padding-left: 31px;
+    color: rgba(19, 39, 67, 0.5);
     }
 
 #PhoneNumber,
@@ -172,6 +173,7 @@
     border-radius: 6px;
     box-sizing: border-box;
     padding-left: 31px;
+    color: rgba(19, 39, 67, 0.5);
 }
 
 #submit {
@@ -183,14 +185,13 @@
     border: 1.5px solid #ED4C5C;
     border-radius: 6px;
     cursor: pointer;
+    color: #FFFFFF;
 
 }
 
 .foter{
-    
     width: 1440px;
     height: 435px;
-    
     background: #FAFAFA;
     display: flex;
     /* justify-content: space-between; */
